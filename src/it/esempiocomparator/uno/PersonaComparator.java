@@ -6,8 +6,12 @@ public class PersonaComparator implements Comparator<Persona> {
 
 	@Override
 	public int compare(Persona o1, Persona o2) {
-		// TODO Auto-generated method stub
-		return 0;
+		if(o1.getAltezza() == o2.getAltezza())
+			return 0;
+		if(o1.getAltezza() > o2.getAltezza())
+			return 1;
+		
+		return -1;
 	}
 
 }
