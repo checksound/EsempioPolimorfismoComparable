@@ -1,4 +1,4 @@
-package it.esempiocomparator.uno;
+package it.esempiosorter.general;
 
 public class PersonaC implements Comparable<PersonaC> {
 	

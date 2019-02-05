@@ -1,4 +1,4 @@
-package it.esempiocomparator.uno;
+package it.esempiosorter.general;
 
 import java.util.Comparator;
 

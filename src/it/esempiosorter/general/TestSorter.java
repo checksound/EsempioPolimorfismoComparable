@@ -1,10 +1,10 @@
-package it.esempiocomparator.uno;
+package it.esempiosorter.general;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MainSorter {
+public class TestSorter {
 
 	public static void main(String[] args) {
 		
