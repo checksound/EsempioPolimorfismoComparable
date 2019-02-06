@@ -1,9 +1,11 @@
-package it.esempiosorter.custom;
+package it.esempiosorter.comparator;
 
 import java.util.Arrays;
 
-public class TestSorter {
+import it.esempiosorter.custom.SorterComparator;
 
+public class TestSorter {
+	
 	public static void main(String[] args) {
 		
 		Persona[] persone = {
@@ -16,7 +18,7 @@ public class TestSorter {
 		
 		System.out.println("PRIMA: " + Arrays.toString(persone));
 		
-		Sorter.sort(persone, 0, persone.length -1, true);
+		SorterComparator.sort(persone, true, new PersonaComparator());
 		
 		System.out.println("DOPO: " + Arrays.toString(persone));
 		

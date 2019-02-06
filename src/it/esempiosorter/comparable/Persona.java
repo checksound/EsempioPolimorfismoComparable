@@ -1,4 +1,6 @@
-package it.esempiosorter.custom;
+package it.esempiosorter.comparable;
+
+import it.esempiosorter.custom.Comparable;
 
 public class Persona implements Comparable {
 	
