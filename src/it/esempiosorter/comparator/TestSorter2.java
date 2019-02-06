@@ -2,9 +2,9 @@ package it.esempiosorter.comparator;
 
 import java.util.Arrays;
 
-import it.esempiosorter.custom.Sorter;
+import it.esempiosorter.custom.SorterComparator;
 
-public class TestSorter {
+public class TestSorter2 {
 	
 	public static void main(String[] args) {
 		
@@ -18,7 +18,7 @@ public class TestSorter {
 		
 		System.out.println("PRIMA: " + Arrays.toString(persone));
 		
-		Sorter.sort(persone, true, new PersonaComparator());
+		SorterComparator.sort(persone, true, new PersonaComparator());
 		
 		System.out.println("DOPO: " + Arrays.toString(persone));
 		
