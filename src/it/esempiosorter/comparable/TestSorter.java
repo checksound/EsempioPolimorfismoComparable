@@ -2,8 +2,6 @@ package it.esempiosorter.comparable;
 
 import java.util.Arrays;
 
-import it.esempiosorter.custom.SorterComparable;
-
 public class TestSorter {
 
 	public static void main(String[] args) {
@@ -18,7 +16,7 @@ public class TestSorter {
 		
 		System.out.println("PRIMA: " + Arrays.toString(persone));
 		
-		SorterComparable.sort(persone, true);
+		Sorter.sort(persone, true);
 		
 		System.out.println("DOPO: " + Arrays.toString(persone));
 		

@@ -1,6 +1,6 @@
 package it.esempiosorter.comparator;
 
-public class Persona {
+public final class Persona {
 	
 	private final String name;
 	private final int altezza;

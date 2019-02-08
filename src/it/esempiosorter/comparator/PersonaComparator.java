@@ -1,7 +1,5 @@
 package it.esempiosorter.comparator;
 
-import it.esempiosorter.custom.Comparator;
-
 public class PersonaComparator implements Comparator {
 
 	@Override

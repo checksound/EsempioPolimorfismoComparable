@@ -2,8 +2,6 @@ package it.esempiosorter.comparator;
 
 import java.util.Arrays;
 
-import it.esempiosorter.custom.Sorter;
-
 public class TestSorter {
 	
 	public static void main(String[] args) {

@@ -1,7 +1,5 @@
 package it.esempiosorter.comparable;
 
-import it.esempiosorter.custom.Comparable;
-
 public class Persona implements Comparable {
 	
 	private final String name;

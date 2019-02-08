@@ -1,24 +1,6 @@
-package it.esempiosorter.custom;
+package it.esempiosorter.comparator;
 
 public class Sorter {
-	
-	public static void sort(Comparable[] a, 
-            boolean up) { 
-		
-		class GenericComparator implements Comparator {
-
-			@Override
-			public int compare(Object o1, Object o2) {
-				Comparable p1 = (Comparable) o1;
-												
-				return p1.compareTo(o2);
-			}
-				
-		}
-		
-		GenericComparator genericComparator = new GenericComparator();
-		sort(a, up, genericComparator);
-	}
 	
 	public static void sort(Object[] a, 
             boolean up, Comparator comparator) {

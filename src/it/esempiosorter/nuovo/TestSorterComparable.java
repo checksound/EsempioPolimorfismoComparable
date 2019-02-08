@@ -1,10 +1,10 @@
-package it.esempiosorter.comparable;
+package it.esempiosorter.nuovo;
 
 import java.util.Arrays;
 
-import it.esempiosorter.custom.Sorter;
+import it.esempiosorter.comparable.Persona;
 
-public class TestSorter2 {
+public class TestSorterComparable {
 
 	public static void main(String[] args) {
 		

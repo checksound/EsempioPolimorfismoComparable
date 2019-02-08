@@ -1,6 +1,6 @@
-package it.esempiosorter.custom;
+package it.esempiosorter.comparable;
 
-public class SorterComparable {
+public class Sorter {
 	
 	public static void sort(Comparable[] a, 
             boolean up) {
